@@ -4,13 +4,14 @@ Study guide and materials for AZ 300 Exam
 ## Important Links 
 [AZ 300 Hands on Labs](https://github.com/MicrosoftLearning/AZ-300-MicrosoftAzureArchitectTechnologies)
 
-## Deploy and configure infrastructure (25-30%)
-## Implement workloads and security (20-25%)
-## Create and deploy apps (5-10%)
-## Implement authentication and secure data (5-10%)
+### Deploy and configure infrastructure (25-30%)
+### Implement workloads and security (20-25%)
+### Create and deploy apps (5-10%)
+### Implement authentication and secure data (5-10%)
 
 
 ## Deploy and configure infrastructure (25-30%)
+
 #### Analyze resource utilization and consumption
 + configure diagnostic settings on resources
 + create baseline for resources
@@ -157,23 +158,23 @@ configure Azure Disk Encryption for VMs
 + implement Azure Confidential Compute and SSL/TLS communications
 + create, read, update, and delete keys, secrets, and certificates by using the KeyVault API
 
-#### Develop for the cloud and for Azure storage (20-25%)
+## Develop for the cloud and for Azure storage (20-25%)
 
-## Develop solutions that use Cosmos DB storage
+#### Develop solutions that use Cosmos DB storage
 + create, read, update, and delete data by using appropriate APIs
 + implement partitioning schemes
 + set the appropriate consistency level for operations
 
-## Develop solutions that use a relational database
+#### Develop solutions that use a relational database
 + provision and configure relational databases
 + configure elastic pools for Azure SQL Database
 + create, read, update, and delete data tables by using code
 
-## Configure a message-based integration architecture
+#### Configure a message-based integration architecture
 + configure an app or service to send emails, Event Grid, and the Azure Relay Service
 + create and configure Notification Hub, Event Hub, and Service Bus
 + configure queries across multiple products
 
-## Develop for autoscaling
+#### Develop for autoscaling
 + implement autoscaling rules and patterns (schedule, operational/system metrics, code that addresses singleton application instances)
 + implement code that addresses transient state
