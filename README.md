@@ -1,14 +1,12 @@
-# AZ 300
+# Skills measured
+
 Study guide and materials for AZ 300 Exam 
 
-## Important Links 
-[AZ 300 Hands on Labs](https://github.com/MicrosoftLearning/AZ-300-MicrosoftAzureArchitectTechnologies)
-
-### Deploy and configure infrastructure (25-30%)
-### Implement workloads and security (20-25%)
-### Create and deploy apps (5-10%)
-### Implement authentication and secure data (5-10%)
-
+[Deploy and configure infrastructure](#deploy-and-configure-infrastructure-25-30)
+[Implement workloads and security](#implement-workloads-and-security-20-25)
+[Create and deploy apps](#create-and-deploy-apps-5-10)
+[Implement authentication and secure data](#implement-authentication-and-secure-data-5-10)
+[Develop for the cloud and for Azure storage](#develop-for-the-cloud-and-for-azure-storage-20-25)
 
 ## Deploy and configure infrastructure (25-30%)
 
@@ -48,9 +46,9 @@ Study guide and materials for AZ 300 Exam
 + deploy Windows and Linux VMs
 
 #### Implement solutions that use virtual machines (VM)
-provision VMs
-create Azure Resource Manager templates
-configure Azure Disk Encryption for VMs
++ provision VMs
++ create Azure Resource Manager templates
++ configure Azure Disk Encryption for VMs
 
 #### Create connectivity between virtual networks
 + create and configure VNET peering
