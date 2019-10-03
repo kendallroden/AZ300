@@ -32,8 +32,8 @@ Skills measured:
 + [monitor activity log by using Azure Monitor logs](https://docs.microsoft.com/en-us/azure/storage/common/storage-metrics-in-azure-monitor)
 + [implement Azure storage replication](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-create-geo-redundant-storage?tabs=dotnet)
 
-#### Create and configure a Virtual Machine (VM) for Windows and Linux
-+ configure high availability
+#### Create and configure a Virtual Machine (VM) for Windows and Linux ([Windows](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal),[Linux](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal))
++ configure high availability ([Windows](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/tutorial-availability-sets),[Linux](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-availability-sets))
 + configure monitoring, networking, storage, and virtual machine size
 + deploy and configure scale sets
 
