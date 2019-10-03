@@ -6,17 +6,17 @@ Study guide and materials for AZ 300 Exam
 
 ## Deploy and configure infrastructure (25-30%)
 #### Analyze resource utilization and consumption
-configure diagnostic settings on resources
-create baseline for resources
-create and rest alerts
-analyze alerts across subscription
-analyze metrics across subscription
-create action groups
-monitor for unused resources
-monitor spend
-report on spend
-utilize Log Search query functions
-view alerts in Azure Monitor logs
++ configure diagnostic settings on resources
++ create baseline for resources
++ create and rest alerts
++ analyze alerts across subscription
++ analyze metrics across subscription
++ create action groups
++ monitor for unused resources
++ monitor spend
++ report on spend
++ utilize Log Search query functions
++ view alerts in Azure Monitor logs
 
 #### Create and configure storage accounts
 configure network access to the storage account
