@@ -2,7 +2,7 @@
 Study guide and materials for AZ 300 Exam 
 
 ## Important Links 
-(https://github.com/MicrosoftLearning/AZ-300-MicrosoftAzureArchitectTechnologies)[AZ 300 Labs]
+[AZ 300 Lab](https://github.com/MicrosoftLearning/AZ-300-MicrosoftAzureArchitectTechnologies)
 
 ### Deploy and configure infrastructure (25-30%)
 ### Implement workloads and security (20-25%)
