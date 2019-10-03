@@ -1,12 +1,12 @@
-# Skills measured
+# AZ-300 skills measured
 
 Study guide and materials for AZ 300 Exam 
 
-[Deploy and configure infrastructure](#deploy-and-configure-infrastructure-25-30)
-[Implement workloads and security](#implement-workloads-and-security-20-25)
-[Create and deploy apps](#create-and-deploy-apps-5-10)
-[Implement authentication and secure data](#implement-authentication-and-secure-data-5-10)
-[Develop for the cloud and for Azure storage](#develop-for-the-cloud-and-for-azure-storage-20-25)
++ [Deploy and configure infrastructure](#deploy-and-configure-infrastructure-25-30)
++ [Implement workloads and security](#implement-workloads-and-security-20-25)
++ [Create and deploy apps](#create-and-deploy-apps-5-10)
++ [Implement authentication and secure data](#implement-authentication-and-secure-data-5-10)
++ [Develop for the cloud and for Azure storage](#develop-for-the-cloud-and-for-azure-storage-20-25)
 
 ## Deploy and configure infrastructure (25-30%)
 
