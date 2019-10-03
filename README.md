@@ -1,12 +1,12 @@
-# AZ-300 skills measured
+# AZ-300 study guide materials 
 
-Study guide and materials for AZ 300 Exam 
-
+Skills measured: 
 + [Deploy and configure infrastructure](#deploy-and-configure-infrastructure-25-30)
 + [Implement workloads and security](#implement-workloads-and-security-20-25)
 + [Create and deploy apps](#create-and-deploy-apps-5-10)
 + [Implement authentication and secure data](#implement-authentication-and-secure-data-5-10)
 + [Develop for the cloud and for Azure storage](#develop-for-the-cloud-and-for-azure-storage-20-25)
+
 
 ## Deploy and configure infrastructure (25-30%)
 
@@ -24,13 +24,13 @@ Study guide and materials for AZ 300 Exam
 + view alerts in Azure Monitor logs
 
 #### Create and configure storage accounts
-+ configure network access to the storage account
-+ create and configure storage account
-+ generate shared access signature
-+ install and use Azure Storage Explorer
-+ manage access keys
-+ monitor activity log by using Azure Monitor logs
-+ implement Azure storage replication
++ [configure network access to the storage account](https://docs.microsoft.com/en-us/azure/storage/common/storage-network-security)
++ [create and configure storage account](https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal)
++ [generate shared access signature](https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview)
++ [install and use Azure Storage Explorer](https://docs.microsoft.com/en-us/azure/vs-azure-tools-storage-manage-with-storage-explorer?tabs=windows)
++ [manage access keys](https://docs.microsoft.com/en-us/azure/storage/common/storage-network-security)
++ [monitor activity log by using Azure Monitor logs](https://docs.microsoft.com/en-us/azure/storage/common/storage-metrics-in-azure-monitor)
++ [implement Azure storage replication](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-create-geo-redundant-storage?tabs=dotnet)
 
 #### Create and configure a Virtual Machine (VM) for Windows and Linux
 + configure high availability
