@@ -40,7 +40,7 @@ Skills measured:
     + [Networking]()
     + [Storage]()
     + [VM size]()
-   + Linux
+  + Linux
     + [Monitoring](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-monitor)
     + Networking
       +[Virtual Network creation for Linux VM](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-virtual-network)
