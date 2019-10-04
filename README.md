@@ -11,9 +11,9 @@ Skills measured:
 ## Deploy and configure infrastructure (25-30%)
 
 #### Analyze resource utilization and consumption
-+ configure diagnostic settings on resources
-+ create baseline for resources
-+ create and rest alerts
++ [configure diagnostic settings on resources](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/diagnostic-settings)
++ [create baseline for resources]()
++ [create and rest alerts]
 + analyze alerts across subscription
 + analyze metrics across subscription
 + create action groups
