@@ -43,8 +43,8 @@ Skills measured:
   + Linux
     + [Monitoring](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-monitor)
     + Networking
-      +[Virtual Network creation for Linux VM](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-virtual-network)
-      +[Manage Networking](https://docs.microsoft.com/en-us/azure/virtual-network/quick-create-cli?toc=%2Fazure%2Fvirtual-machines%2Flinux%2Ftoc.json)
+     +[Virtual Network creation for Linux VM](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-virtual-network)
+     +[Manage Networking](https://docs.microsoft.com/en-us/azure/virtual-network/quick-create-cli?toc=%2Fazure%2Fvirtual-machines%2Flinux%2Ftoc.json)
     + Storage
       +[Create/Manage Disks](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-manage-disks)
       +[Manage Storage](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/attach-disk-portal)
