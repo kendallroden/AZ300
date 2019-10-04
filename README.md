@@ -36,15 +36,15 @@ Skills measured:
 + configure high availability ([Windows](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/tutorial-availability-sets),[Linux](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-availability-sets))
 + configure monitoring, networking, storage, and virtual machine size
   + Windows
-    + [Monitoring]()
-    + [Networking]()
-    + [Storage]()
-    + [VM size]()
+    + [Monitoring](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/tutorial-monitor)
+    + [Networking](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/tutorial-virtual-network)
+    + [Storage](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/tutorial-manage-data-disk)
+    + [VM size](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sizes)
   + Linux
     + [Monitoring](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-monitor)
     + Networking ([Virtual Network creation for Linux VM](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-virtual-network), [Manage Networking](https://docs.microsoft.com/en-us/azure/virtual-network/quick-create-cli?toc=%2Fazure%2Fvirtual-machines%2Flinux%2Ftoc.json))
     + Storage ([Create/Manage Disks](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-manage-disks), [Manage Storage](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/attach-disk-portal))
-    + [VM size]()
+    + [VM size](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/sizes)
 + deploy and configure scale sets ([Windows](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/tutorial-create-vmss), [Linux](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-create-vmss))
 
 #### Automate deployment of Virtual Machines (VMs)
