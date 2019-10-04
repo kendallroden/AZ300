@@ -35,7 +35,11 @@ Skills measured:
 #### Create and configure a Virtual Machine (VM) for Windows and Linux ([Windows](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal),[Linux](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal))
 + configure high availability ([Windows](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/tutorial-availability-sets),[Linux](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-availability-sets))
 + configure monitoring, networking, storage, and virtual machine size
-+ deploy and configure scale sets
+  + [Windows- Monitoring]()
+  + [Windows - Networking]()
+  + [Windows - Storage]()
+  + [Window - VM size]()
++ deploy and configure scale sets ([Windows](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/tutorial-create-vmss), [Linux](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-create-vmss))
 
 #### Automate deployment of Virtual Machines (VMs)
 + modify Azure Resource Manager template
