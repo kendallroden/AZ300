@@ -56,32 +56,34 @@ Skills measured:
 + [deploy Windows and Linux VMs]()
 
 #### Implement solutions that use virtual machines (VM)
-+ [provision VMs]()
-+ [create Azure Resource Manager templates]()
-+ [configure Azure Disk Encryption for VMs]()
++ Provision VMs
+  + Windows ([Portal](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal), [Powershell](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-powershell), [CLI](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-cli))
+  + Linux ([Portal](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal), [Powershell](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-powershell), [CLI](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-cli))
++ create Azure Resource Manager templates ([Portal](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-quickstart-create-templates-use-the-portal), [VS Code](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-quickstart-create-templates-use-visual-studio-code?tabs=CLI), [Visual Studio](https://docs.microsoft.com/en-us/azure/azure-resource-manager/vs-azure-tools-resource-groups-deployment-projects-create-deploy))
++ configure Azure Disk Encryption for VMs ([Windows](https://docs.microsoft.com/en-us/azure/security/azure-security-disk-encryption-windows), [Linux](https://docs.microsoft.com/en-us/azure/security/azure-security-disk-encryption-windows))
 
 #### Create connectivity between virtual networks
-+ [create and configure VNET peering]()
-+ [create and configure VNET to VNET]()
-+ [verify virtual network connectivity]()
-+ [create virtual network gateway]()
++ [create and configure VNET peering](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-manage-peering)
++ create and configure VNET to VNET ([Portal](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-vnet-vnet-resource-manager-portal), [Powershell](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-vnet-vnet-rm-ps), [CLI](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-vnet-vnet-cli))
++ [verify virtual network connectivity](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-configure-vnet-connections)
++ create virtual network gateway ([Portal](https://docs.microsoft.com/en-us/azure/vpn-gateway/create-routebased-vpn-gateway-portal), [Powershell](https://docs.microsoft.com/en-us/azure/vpn-gateway/create-routebased-vpn-gateway-powershell), [CLI](https://docs.microsoft.com/en-us/azure/vpn-gateway/create-routebased-vpn-gateway-cli))
 
 #### Implement and manage virtual networking
-+ [configure private and public IP addresses, network routes, network interface, subnets, and virtual network]()
++ [configure private and public IP addresses, network routes, network interface, subnets, and virtual network](https://docs.microsoft.com/en-us/azure/virtual-network/manage-virtual-network)
 
 #### Manage Azure Active Directory (AD)
-+ [add custom domains]()
-+ [configure Azure AD Identity Protection, Azure AD Join, and Enterprise State Roaming]()
-+ [configure self-service password reset]()
-+ [implement conditional access policies]()
-+ [manage multiple directories]()
-+ [perform an access review]()
++ [add custom domains](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/add-custom-domain)
++ configure [Azure AD Identity Protection](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/enable), [Azure AD Join](https://docs.microsoft.com/en-us/azure/active-directory/devices/device-management-azure-portal), and [Enterprise State Roaming](https://docs.microsoft.com/en-us/azure/active-directory/devices/enterprise-state-roaming-enable)
++ [configure self-service password reset](https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-sspr-deployment)
++ [implement conditional access policies](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-policies)
++ [manage multiple directories](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/licensing-directory-independence)
++ [perform an access review](https://docs.microsoft.com/en-us/azure/active-directory/governance/create-access-review)
 
 #### Implement and manage hybrid identities
-+ [install and configure Azure AD Connect]()
-+ [configure federation and single sign-on]()
-+ [manage Azure AD Connect]()
-+ [manage password sync and writeback]()
++ [install and configure Azure AD Connect](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-express)
++ configure [AD federation](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-fed-management) and [AD single sign-on](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sso-quick-start)
++ [manage Azure AD Connect](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-post-installation)
++ manage AD Connect [password sync](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-password-hash-synchronization) and [writeback](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-device-writeback)
 
 ## Implement workloads and security (20-25%)
 
