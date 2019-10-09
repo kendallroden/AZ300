@@ -12,7 +12,7 @@ Skills measured:
 
 #### Analyze resource utilization and consumption
 + [configure diagnostic settings on resources](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/diagnostic-settings)
-+ [create baseline for resources]()
++ [create baseline for resources](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-dynamic-thresholds)
 + [create and rest alerts]()
 + [analyze alerts across subscription]()
 + [analyze metrics across subscription]()
