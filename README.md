@@ -10,6 +10,9 @@ Skills measured:
 
 ## Deploy and configure infrastructure (25-30%)
 
+Hands-on Training: 
++ [OPENedX Course:Deploy and Configure Infrastructure](https://courses.microsoft.com/courses/course-v1:ELMS+AZ-300.1+2019_T2/course/)
+
 #### Analyze resource utilization and consumption
 + [configure diagnostic settings on resources](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/diagnostic-settings)
 + [create baseline for resources]()
