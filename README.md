@@ -175,7 +175,7 @@ Hands-on Training:
 ## Develop for the cloud and for Azure storage (20-25%)
 
 #### Develop solutions that use Cosmos DB storage
-+ [create, read, update, and delete data by using appropriate APIs]([local emulator](https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator),[microsoft learn](https://docs.microsoft.com/en-us/learn/modules/build-cosmos-db-app-with-vscode/))
++ create, read, update, and delete data by using appropriate APIs([local emulator](https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator), [microsoft learn](https://docs.microsoft.com/en-us/learn/modules/build-cosmos-db-app-with-vscode/))
 + [implement partitioning schemes](https://docs.microsoft.com/en-us/learn/modules/monitor-and-scale-cosmos-db/)
 + [set the appropriate consistency level for operations](https://docs.microsoft.com/en-us/azure/cosmos-db/how-to-manage-consistency)
 
