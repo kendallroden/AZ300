@@ -15,6 +15,7 @@ Additional Links:
 
 Hands-on Training: 
 + [OPENedX Course:Deploy and Configure Infrastructure](https://courses.microsoft.com/courses/course-v1:ELMS+AZ-300.1+2019_T2/course/)
++ [Packt Exam Guide](https://github.com/PacktPublishing/Microsoft-Azure-Architect-Technologies-Exam-Guide-AZ-300)
 
 #### Analyze resource utilization and consumption
 + [configure diagnostic settings on resources](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/diagnostic-settings)
