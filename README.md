@@ -6,8 +6,11 @@ Skills measured:
 + [Create and deploy apps](#create-and-deploy-apps-5-10)
 + [Implement authentication and secure data](#implement-authentication-and-secure-data-5-10)
 + [Develop for the cloud and for Azure storage](#develop-for-the-cloud-and-for-azure-storage-20-25)
-
-
+ 
+Additional Links: 
++ [Study Notes for the AZ-300 exam](https://github.com/toddbadams/az300)
++ [Pluralsight course](https://www.pluralsight.com/paths/microsoft-azure-architect-technologies-az-300)
+  
 ## Deploy and configure infrastructure (25-30%)
 
 Hands-on Training: 
@@ -112,7 +115,7 @@ Hands-on Training:
 + [manage application load balancing](https://docs.microsoft.com/en-us/azure/application-gateway/overview)
 
 #### Integrate on-premises network with Azure virtual network
-+ create and configure Azure VPN Gateway ([Portal](https://docs.microsoft.com/en-us/azure/vpn-gateway/create-routebased-vpn-gateway-portal, [CLI](https://docs.microsoft.com/en-us/azure/vpn-gateway/create-routebased-vpn-gateway-cli), [PowerShell](https://docs.microsoft.com/en-us/azure/vpn-gateway/create-routebased-vpn-gateway-powershell))
++ create and configure Azure VPN Gateway ([Portal](https://docs.microsoft.com/en-us/azure/vpn-gateway/create-routebased-vpn-gateway-portal), [CLI](https://docs.microsoft.com/en-us/azure/vpn-gateway/create-routebased-vpn-gateway-cli), [PowerShell](https://docs.microsoft.com/en-us/azure/vpn-gateway/create-routebased-vpn-gateway-powershell))
 + create and configure site to site VPN ([Portal](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-site-to-site-resource-manager-portal), [CLI](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-site-to-site-resource-manager-cli), [PowerShell](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-create-site-to-site-rm-powershell))
 + [configure Express Route](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-howto-circuit-portal-resource-manager)
 + [verify on-premises connectivity](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-validate-throughput-to-vnet)
@@ -120,7 +123,7 @@ Hands-on Training:
 
 #### Manage role-based access control (RBAC)
 + [create a custom role](https://docs.microsoft.com/en-us/azure/role-based-access-control/custom-roles)
-+ configure access to Azure resources by assigning roles ([Portal(https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal, [CLI](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-cli), [PowerShell](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-powershell), [REST](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-rest))
++ configure access to Azure resources by assigning roles ([Portal](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal), [CLI](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-cli), [PowerShell](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-powershell), [REST](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-rest)))
 + [configure management access to Azure](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-admin-roles-secure)
 + [troubleshoot RBAC](https://docs.microsoft.com/en-us/azure/role-based-access-control/troubleshooting)
 + [implement RBAC policies](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview)
@@ -144,44 +147,47 @@ Hands-on Training:
 + [enable diagnostics logging](https://docs.microsoft.com/en-us/azure/app-service/troubleshoot-diagnostic-logs)
 
 #### Design and develop apps that run in containers
-+ [configure diagnostic settings on resources]()
++ configure diagnostic settings on resources
 + [create a container image by using a Docker file](https://docs.microsoft.com/en-us/azure/app-service/containers/tutorial-custom-docker-image)
 + [create an Azure Kubernetes Service](https://docs.microsoft.com/en-us/azure/aks/kubernetes-walkthrough)
 + [publish an image to the Azure Container Registry](https://docs.microsoft.com/en-us/learn/modules/build-and-store-container-images/)
 + [implement an application that runs on an Azure Container Instance](https://docs.microsoft.com/en-us/learn/modules/run-docker-with-azure-container-instances/)
-+ [manage container settings by using code]()
++ manage container settings by using code
 
 ## Implement authentication and secure data (5-10%)
 
 #### [Implement authentication](https://docs.microsoft.com/en-us/azure/active-directory/develop/)
-+ [implement authentication by using certificates, forms-based authentication, tokens, or Windows-integrated authentication]()
++ implement authentication by using certificates, forms-based authentication, tokens, or Windows-integrated authentication
+  + [Certificates](https://docs.microsoft.com/en-us/azure/active-directory/authentication/active-directory-certificate-based-authentication-get-started)
+  + [Forms-Based](https://social.technet.microsoft.com/wiki/contents/articles/3669.azure-active-directory-solutions-for-developers.aspx)
+  + [Tokens](https://docs.microsoft.com/en-us/azure/active-directory/develop/v1-protocols-oauth-code)
+  + [Windows-integrated](https://docs.microsoft.com/en-us/aspnet/web-api/overview/security/integrated-windows-authentication)
 + [implement multi-factor authentication by using Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-mfa-getstarted)
 + [implement OAuth2 authentication](https://docs.microsoft.com/en-us/azure/active-directory/develop/v1-protocols-oauth-code#register-your-application-with-your-ad-tenant)
 + [implement Managed identities for Azure resources Service Principal authentication](https://www.pluralsight.com/courses/microsoft-azure-resources-managed-identities-implementing)
 
 #### Implement secure data solutions
-+ [encrypt and decrypt data at rest and in transit]()
-+ [encrypt data with Always Encrypted]()
-+ [implement Azure Confidential Compute and SSL/TLS communications]()
-+ [create, read, update, and delete keys, secrets, and certificates by using the KeyVault API]()
++ [encrypt and decrypt data at rest and in transit]([best practices](https://docs.microsoft.com/en-us/azure/security/fundamentals/data-encryption-best-practices),[encryption at rest](https://docs.microsoft.com/en-us/azure/security/fundamentals/encryption-atrest))
++ [encrypt data with Always Encrypted](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-always-encrypted-azure-key-vault)
++ [implement Azure Confidential Compute and SSL/TLS communications]([confidential compute](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/microsoft-azure-compute.confidentialcompute?tab=Overview))
++ [create, read, update, and delete keys, secrets, and certificates by using the KeyVault API]([client samples](https://www.microsoft.com/en-us/download/details.aspx?id=45343),[api reference](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-manage-with-cli2),[key vault learning module](https://docs.microsoft.com/en-us/learn/modules/manage-secrets-with-azure-key-vault/))
 
 ## Develop for the cloud and for Azure storage (20-25%)
 
 #### Develop solutions that use Cosmos DB storage
-+ [create, read, update, and delete data by using appropriate APIs]()
-+ [implement partitioning schemes]()
-+ [set the appropriate consistency level for operations]()
++ [create, read, update, and delete data by using appropriate APIs]([local emulator](https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator),[microsoft learn](https://docs.microsoft.com/en-us/learn/modules/build-cosmos-db-app-with-vscode/))
++ [implement partitioning schemes](https://docs.microsoft.com/en-us/learn/modules/monitor-and-scale-cosmos-db/)
++ [set the appropriate consistency level for operations](https://docs.microsoft.com/en-us/azure/cosmos-db/how-to-manage-consistency)
 
 #### Develop solutions that use a relational database
-+ [provision and configure relational databases]()
-+ [configure elastic pools for Azure SQL Database]()
-+ [create, read, update, and delete data tables by using code]()
++ provision and configure relational database([.NET](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-design-first-database-csharp),[SSMS](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-design-first-database])
++ [configure elastic pools for Azure SQL Database](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-elastic-pool)
++ [create, read, update, and delete data tables by using code](https://docs.microsoft.com/en-us/learn/paths/work-with-relational-data-in-azure/)
 
-#### Configure a message-based integration architecture
-+ [configure an app or service to send emails, Event Grid, and the Azure Relay Service]()
-+ [create and configure Notification Hub, Event Hub, and Service Bus]()
++ [configure an app or service to send emails](https://docs.microsoft.com/en-us/azure/sendgrid-dotnet-how-to-send-email), [Event Grid](https://docs.microsoft.com/en-us/samples/azure-samples/event-grid-dotnet-publish-consume-events/event-grid-dotnet-publish-consume-events/), and the [Azure Relay Service](https://docs.microsoft.com/en-us/azure/service-bus-relay/relay-hybrid-connections-http-requests-dotnet-get-started)
++ create and configure [Notification Hub](https://github.com/Azure/azure-notificationhubs-dotnet/tree/master/Samples), [Event Hub](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-samples), and [Service Bus](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-samples)  
 + [configure queries across multiple products]()
 
 #### Develop for autoscaling
-+ [implement autoscaling rules and patterns (schedule, operational/system metrics, code that addresses singleton application instances)]()
-+ [implement code that addresses transient state]()
++ [implement autoscaling rules and patterns](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/autoscale-overview)([schedule and operational/system metrics](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/autoscale-get-started), code that addresses singleton application instance)
++ [implement code that addresses transient state](https://docs.microsoft.com/en-us/aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/transient-fault-handling)
