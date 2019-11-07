@@ -35,7 +35,7 @@ Hands-on Training:
 + [create and configure storage account](https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal)
 + [generate shared access signature](https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview)
 + [install and use Azure Storage Explorer](https://docs.microsoft.com/en-us/azure/vs-azure-tools-storage-manage-with-storage-explorer?tabs=windows)
-+ [manage access keys](https://docs.microsoft.com/en-us/azure/storage/common/storage-network-security)
++ [manage access keys](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-ovw-storage-keys)
 + [monitor activity log by using Azure Monitor logs](https://docs.microsoft.com/en-us/azure/storage/common/storage-metrics-in-azure-monitor)
 + [implement Azure storage replication](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-create-geo-redundant-storage?tabs=dotnet)
 
