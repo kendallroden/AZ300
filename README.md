@@ -57,7 +57,7 @@ Hands-on Training:
 #### Automate deployment of Virtual Machines (VMs)
 + modify Azure Resource Manager template ([Portal](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-quickstart-create-templates-use-the-portal), [VS Code](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-quickstart-create-templates-use-visual-studio-code?tabs=CLI), [Visual Studio](https://docs.microsoft.com/en-us/azure/azure-resource-manager/vs-azure-tools-resource-groups-deployment-projects-create-deploy))
 + [configure location of new VMs](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-authoring-templates#resources)
-+ [configure VHD template](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/prepare-for-upload-vhd-image)
++ [configure VHD template](https://docs.microsoft.com/en-us/azure/marketplace/cloud-partner-portal/virtual-machine/cpp-deploy-json-template)
 + deploy from template ([Portal](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-template-deploy), [CLI](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-template-deploy-cli), [Powershell](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-template-deploy))
 + [save a deployment as an Azure Resource Manager template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/manage-resources-portal)
 + deploy Windows and Linux VMs ([Windows](https://azure.microsoft.com/en-us/resources/templates/101-vm-tags/), [Linux](https://azure.microsoft.com/en-us/resources/templates/101-vm-simple-linux/))
