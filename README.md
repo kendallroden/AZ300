@@ -80,7 +80,7 @@ Hands-on Training:
 
 #### Manage Azure Active Directory (AD)
 + [add custom domains](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/add-custom-domain)
-+ configure [Azure AD Identity Protection](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/enable), [Azure AD Join](https://docs.microsoft.com/en-us/azure/active-directory/devices/device-management-azure-portal), and [Enterprise State Roaming](https://docs.microsoft.com/en-us/azure/active-directory/devices/enterprise-state-roaming-enable)
++ configure [Azure AD Identity Protection](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/overview-identity-protection), [Azure AD Join](https://docs.microsoft.com/en-us/azure/active-directory/devices/device-management-azure-portal), and [Enterprise State Roaming](https://docs.microsoft.com/en-us/azure/active-directory/devices/enterprise-state-roaming-enable)
 + [configure self-service password reset](https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-sspr-deployment)
 + [implement conditional access policies](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-policies)
 + [manage multiple directories](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/licensing-directory-independence)
