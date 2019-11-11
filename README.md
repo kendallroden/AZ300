@@ -67,7 +67,7 @@ Hands-on Training:
   + Windows ([Portal](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal), [Powershell](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-powershell), [CLI](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-cli))
   + Linux ([Portal](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal), [Powershell](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-powershell), [CLI](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-cli))
 + create Azure Resource Manager templates ([Portal](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-quickstart-create-templates-use-the-portal), [VS Code](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-quickstart-create-templates-use-visual-studio-code?tabs=CLI), [Visual Studio](https://docs.microsoft.com/en-us/azure/azure-resource-manager/vs-azure-tools-resource-groups-deployment-projects-create-deploy))
-+ configure Azure Disk Encryption for VMs ([Windows](https://docs.microsoft.com/en-us/azure/security/azure-security-disk-encryption-windows), [Linux](https://docs.microsoft.com/en-us/azure/security/azure-security-disk-encryption-windows))
++ configure Azure Disk Encryption for VMs ([Windows](https://docs.microsoft.com/en-us/azure/virtual-machines/extensions/azure-disk-enc-windows), [Linux](https://docs.microsoft.com/en-us/azure/security/azure-security-disk-encryption-windows))
 
 #### Create connectivity between virtual networks
 + [create and configure VNET peering](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-manage-peering)
