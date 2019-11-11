@@ -168,10 +168,10 @@ Hands-on Training:
 + [implement Managed identities for Azure resources Service Principal authentication](https://www.pluralsight.com/courses/microsoft-azure-resources-managed-identities-implementing)
 
 #### Implement secure data solutions
-+ [encrypt and decrypt data at rest and in transit]([best practices](https://docs.microsoft.com/en-us/azure/security/fundamentals/data-encryption-best-practices),[encryption at rest](https://docs.microsoft.com/en-us/azure/security/fundamentals/encryption-atrest))
++ encrypt and decrypt data at rest and in transit([best practices](https://docs.microsoft.com/en-us/azure/security/fundamentals/data-encryption-best-practices),[encryption at rest](https://docs.microsoft.com/en-us/azure/security/fundamentals/encryption-atrest))
 + [encrypt data with Always Encrypted](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-always-encrypted-azure-key-vault)
-+ [implement Azure Confidential Compute and SSL/TLS communications]([confidential compute](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/microsoft-azure-compute.confidentialcompute?tab=Overview))
-+ [create, read, update, and delete keys, secrets, and certificates by using the KeyVault API]([client samples](https://www.microsoft.com/en-us/download/details.aspx?id=45343),[api reference](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-manage-with-cli2),[key vault learning module](https://docs.microsoft.com/en-us/learn/modules/manage-secrets-with-azure-key-vault/))
++ implement Azure Confidential Compute and SSL/TLS communications([confidential compute](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/microsoft-azure-compute.confidentialcompute?tab=Overview))
++ create, read, update, and delete keys, secrets, and certificates by using the KeyVault API([client samples](https://www.microsoft.com/en-us/download/details.aspx?id=45343),[api reference](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-manage-with-cli2),[key vault learning module](https://docs.microsoft.com/en-us/learn/modules/manage-secrets-with-azure-key-vault/))
 
 ## Develop for the cloud and for Azure storage (20-25%)
 
