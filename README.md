@@ -20,7 +20,7 @@ Hands-on Training:
 #### Analyze resource utilization and consumption
 + [configure diagnostic settings on resources](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/diagnostic-settings)
 + [create baseline for resources](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-dynamic-thresholds)
-+ [create and rest alerts](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-metric)
++ [create and test alerts](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-metric)
 + [analyze alerts across subscription](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-unified-log)
 + [analyze metrics across subscription](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/data-platform)
 + [create action groups](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/action-groups)
@@ -29,15 +29,19 @@ Hands-on Training:
 + [report on spend](https://docs.microsoft.com/en-us/azure/billing/billing-understand-your-bill)
 + [utilize Log Search query functions](https://docs.microsoft.com/en-us/azure/azure-monitor/log-query/log-query-overview)
 + [view alerts in Azure Monitor logs](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alert-management-solution)
++ [visualize diagnostics data using Azure Monitor Workbooks](https://docs.microsoft.com/en-us/azure/azure-monitor/app/usage-workbooks)
 
 #### Create and configure storage accounts
 + [configure network access to the storage account](https://docs.microsoft.com/en-us/azure/storage/common/storage-network-security)
 + [create and configure storage account](https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal)
 + [generate shared access signature](https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview)
++ [implement Azure AD authentication for storage
+](https://docs.microsoft.com/en-us/azure/storage/common/storage-auth-aad)
 + [install and use Azure Storage Explorer](https://docs.microsoft.com/en-us/azure/vs-azure-tools-storage-manage-with-storage-explorer?tabs=windows)
 + [manage access keys](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-ovw-storage-keys)
 + [monitor activity log by using Azure Monitor logs](https://docs.microsoft.com/en-us/azure/storage/common/storage-metrics-in-azure-monitor)
 + [implement Azure storage replication](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-create-geo-redundant-storage?tabs=dotnet)
++ [implement Azure storage account failover](https://docs.microsoft.com/en-us/azure/storage/common/storage-disaster-recovery-guidance)
 
 #### Create and configure a Virtual Machine (VM) for Windows and Linux ([Windows](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal),[Linux](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal))
 + configure high availability ([Windows](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/tutorial-availability-sets),[Linux](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-availability-sets))
@@ -52,6 +56,7 @@ Hands-on Training:
     + Networking ([Virtual Network creation for Linux VM](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-virtual-network), [Manage Networking](https://docs.microsoft.com/en-us/azure/virtual-network/quick-create-cli?toc=%2Fazure%2Fvirtual-machines%2Flinux%2Ftoc.json))
     + Storage ([Create/Manage Disks](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-manage-disks), [Manage Storage](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/attach-disk-portal))
     + [VM size](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/sizes)
++ implement dedicated hosts (https://docs.microsoft.com/en-us/azure/virtual-machines/windows/dedicated-hosts)
 + deploy and configure scale sets ([Windows](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/tutorial-create-vmss), [Linux](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-create-vmss))
 
 #### Automate deployment of Virtual Machines (VMs)
@@ -61,6 +66,31 @@ Hands-on Training:
 + deploy from template ([Portal](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-template-deploy), [CLI](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-template-deploy-cli), [Powershell](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-template-deploy))
 + [save a deployment as an Azure Resource Manager template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/manage-resources-portal)
 + deploy Windows and Linux VMs ([Windows](https://azure.microsoft.com/en-us/resources/templates/101-vm-tags/), [Linux](https://azure.microsoft.com/en-us/resources/templates/101-vm-simple-linux/))
+
+#### Create connectivity between virtual networks
++ create and configure VNET peering  
++ create and configure VNET to VNET connections
++ verify virtual network connectivity
++ create virtual network gateway
+
+#### Implement and manage virtual networking
++ configure private and public IP addresses, network routes, network interface, subnets,
+and virtual network  
++ create and configure Network Security Groups and Application Security Groups
+
+#### Manage Azure Active Directory (AD)
++ add custom domains  
++ configure Azure AD Identity Protection, Azure AD Join, and Enterprise State Roaming
++ configure self-service password reset
++ implement conditional access policies
++ manage multiple directories
++ perform an access review
+
+#### Implement and manage hybrid identities
++ install and configure Azure AD Connect  
++ configure federation and single sign-on
++ manage and troubleshoot Azure AD Connect
++ troubleshoot password sync and writeback
 
 #### Implement solutions that use virtual machines (VM)
 + Provision VMs
@@ -96,8 +126,8 @@ Hands-on Training:
 
 #### Migrate servers to Azure
 + [migrate by using Azure Site Recovery](https://docs.microsoft.com/en-us/azure/site-recovery/migrate-tutorial-on-premises-azure)
-+ [migrate using P2V](https://docs.microsoft.com/en-us/azure/site-recovery/physical-azure-disaster-recovery)
-+ [configure storage](https://docs.microsoft.com/en-us/azure/site-recovery/tutorial-prepare-azure)
++ [~~migrate using P2V~~](https://docs.microsoft.com/en-us/azure/site-recovery/physical-azure-disaster-recovery)
++ [~~configure storage~~](https://docs.microsoft.com/en-us/azure/site-recovery/tutorial-prepare-azure)
 + [create a backup vault](https://docs.microsoft.com/en-us/azure/backup/backup-sql-server-database-azure-vms#create-a-recovery-services-vault)
 + prepare [source](https://docs.microsoft.com/en-us/azure/site-recovery/physical-azure-set-up-source) and [target](https://docs.microsoft.com/en-us/azure/site-recovery/vmware-azure-set-up-target) environments
 + [backup and restore data](https://docs.microsoft.com/en-us/azure/backup/backup-azure-recovery-services-vault-overview)
@@ -111,8 +141,8 @@ Hands-on Training:
 + [manage Service Bus](https://docs.microsoft.com/en-gb/azure/service-bus-messaging/)
 
 #### Implement application load balancing
-+ [configure application gateway and load balancing rules](https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-overview)
-+ [implement front end IP configurations](https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-multivip-overview)
++ [~~configure application gateway and load balancing rules~~](https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-overview)
++ [~~implement front end IP configurations~~](https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-multivip-overview)
 + [manage application load balancing](https://docs.microsoft.com/en-us/azure/application-gateway/overview)
 
 #### Integrate on-premises network with Azure virtual network
