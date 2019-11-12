@@ -10,6 +10,8 @@ Skills measured:
 Additional Links: 
 + [Study Notes for the AZ-300 exam](https://github.com/toddbadams/az300)
 + [Pluralsight course](https://www.pluralsight.com/paths/microsoft-azure-architect-technologies-az-300)
++ [A Cloud Guru course](https://acloud.guru/learn/az-300-architect-technologies-2019)
++ [Udemy course](https://www.udemy.com/course/70534-azure/)
   
 ## Deploy and configure infrastructure (25-30%)
 
