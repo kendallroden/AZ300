@@ -99,7 +99,7 @@ Hands-on Training:
   + Linux ([Portal](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal), [Powershell](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-powershell), [CLI](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-cli))
 + create Azure Resource Manager templates ([Portal](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-quickstart-create-templates-use-the-portal), [VS Code](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-quickstart-create-templates-use-visual-studio-code?tabs=CLI), [Visual Studio](https://docs.microsoft.com/en-us/azure/azure-resource-manager/vs-azure-tools-resource-groups-deployment-projects-create-deploy))
 + configure Azure Disk Encryption for VMs ([Windows](https://docs.microsoft.com/en-us/azure/virtual-machines/extensions/azure-disk-enc-windows), [Linux](https://docs.microsoft.com/en-us/azure/security/azure-security-disk-encryption-windows))
-+ [implement Azure Backup for VMs] (https://docs.microsoft.com/en-us/azure/backup/backup-azure-vms-introduction)
++ [implement Azure Backup for VMs](https://docs.microsoft.com/en-us/azure/backup/backup-azure-vms-introduction)
 
 ## Implement workloads and security (20-25%)
 
