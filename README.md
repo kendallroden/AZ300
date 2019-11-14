@@ -10,6 +10,8 @@ Skills measured:
 Additional Links: 
 + [Study Notes for the AZ-300 exam](https://github.com/toddbadams/az300)
 + [Pluralsight course](https://www.pluralsight.com/paths/microsoft-azure-architect-technologies-az-300)
++ [A Cloud Guru course](https://acloud.guru/learn/az-300-architect-technologies-2019)
++ [Udemy course](https://www.udemy.com/course/70534-azure/)
   
 ## Deploy and configure infrastructure (25-30%)
 
@@ -20,7 +22,7 @@ Hands-on Training:
 #### Analyze resource utilization and consumption
 + [configure diagnostic settings on resources](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/diagnostic-settings)
 + [create baseline for resources](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-dynamic-thresholds)
-+ [create and rest alerts](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-metric)
++ [create and test alerts](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-metric)
 + [analyze alerts across subscription](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alerts-unified-log)
 + [analyze metrics across subscription](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/data-platform)
 + [create action groups](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/action-groups)
@@ -29,15 +31,19 @@ Hands-on Training:
 + [report on spend](https://docs.microsoft.com/en-us/azure/billing/billing-understand-your-bill)
 + [utilize Log Search query functions](https://docs.microsoft.com/en-us/azure/azure-monitor/log-query/log-query-overview)
 + [view alerts in Azure Monitor logs](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/alert-management-solution)
++ [visualize diagnostics data using Azure Monitor Workbooks](https://docs.microsoft.com/en-us/azure/azure-monitor/app/usage-workbooks)
 
 #### Create and configure storage accounts
 + [configure network access to the storage account](https://docs.microsoft.com/en-us/azure/storage/common/storage-network-security)
 + [create and configure storage account](https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal)
 + [generate shared access signature](https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview)
++ [implement Azure AD authentication for storage
+](https://docs.microsoft.com/en-us/azure/storage/common/storage-auth-aad)
 + [install and use Azure Storage Explorer](https://docs.microsoft.com/en-us/azure/vs-azure-tools-storage-manage-with-storage-explorer?tabs=windows)
 + [manage access keys](https://docs.microsoft.com/en-us/azure/key-vault/key-vault-ovw-storage-keys)
 + [monitor activity log by using Azure Monitor logs](https://docs.microsoft.com/en-us/azure/storage/common/storage-metrics-in-azure-monitor)
 + [implement Azure storage replication](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-create-geo-redundant-storage?tabs=dotnet)
++ [implement Azure storage account failover](https://docs.microsoft.com/en-us/azure/storage/common/storage-disaster-recovery-guidance)
 
 #### Create and configure a Virtual Machine (VM) for Windows and Linux ([Windows](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal),[Linux](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal))
 + configure high availability ([Windows](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/tutorial-availability-sets),[Linux](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-availability-sets))
@@ -52,6 +58,7 @@ Hands-on Training:
     + Networking ([Virtual Network creation for Linux VM](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-virtual-network), [Manage Networking](https://docs.microsoft.com/en-us/azure/virtual-network/quick-create-cli?toc=%2Fazure%2Fvirtual-machines%2Flinux%2Ftoc.json))
     + Storage ([Create/Manage Disks](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-manage-disks), [Manage Storage](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/attach-disk-portal))
     + [VM size](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/sizes)
++ implement dedicated hosts (https://docs.microsoft.com/en-us/azure/virtual-machines/windows/dedicated-hosts)
 + deploy and configure scale sets ([Windows](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/tutorial-create-vmss), [Linux](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-create-vmss))
 
 #### Automate deployment of Virtual Machines (VMs)
@@ -62,13 +69,6 @@ Hands-on Training:
 + [save a deployment as an Azure Resource Manager template](https://docs.microsoft.com/en-us/azure/azure-resource-manager/manage-resources-portal)
 + deploy Windows and Linux VMs ([Windows](https://azure.microsoft.com/en-us/resources/templates/101-vm-tags/), [Linux](https://azure.microsoft.com/en-us/resources/templates/101-vm-simple-linux/))
 
-#### Implement solutions that use virtual machines (VM)
-+ Provision VMs
-  + Windows ([Portal](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal), [Powershell](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-powershell), [CLI](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-cli))
-  + Linux ([Portal](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal), [Powershell](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-powershell), [CLI](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-cli))
-+ create Azure Resource Manager templates ([Portal](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-quickstart-create-templates-use-the-portal), [VS Code](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-quickstart-create-templates-use-visual-studio-code?tabs=CLI), [Visual Studio](https://docs.microsoft.com/en-us/azure/azure-resource-manager/vs-azure-tools-resource-groups-deployment-projects-create-deploy))
-+ configure Azure Disk Encryption for VMs ([Windows](https://docs.microsoft.com/en-us/azure/virtual-machines/extensions/azure-disk-enc-windows), [Linux](https://docs.microsoft.com/en-us/azure/security/azure-security-disk-encryption-windows))
-
 #### Create connectivity between virtual networks
 + [create and configure VNET peering](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-manage-peering)
 + create and configure VNET to VNET ([Portal](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-vnet-vnet-resource-manager-portal), [Powershell](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-vnet-vnet-rm-ps), [CLI](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-vnet-vnet-cli))
@@ -77,6 +77,7 @@ Hands-on Training:
 
 #### Implement and manage virtual networking
 + [configure private and public IP addresses, network routes, network interface, subnets, and virtual network](https://docs.microsoft.com/en-us/azure/virtual-network/manage-virtual-network)
++ [create and configure Network Security Groups and Application Security Groups] (https://docs.microsoft.com/en-us/azure/virtual-network/security-overview)
 
 #### Manage Azure Active Directory (AD)
 + [add custom domains](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/add-custom-domain)
@@ -88,47 +89,52 @@ Hands-on Training:
 
 #### Implement and manage hybrid identities
 + [install and configure Azure AD Connect](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-install-express)
-+ configure [AD federation](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-fed-management) and [AD single sign-on](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sso-quick-start)
++ configure [federation](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-fed-management) and [single sign-on](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sso-quick-start)
 + [manage Azure AD Connect](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-post-installation)
-+ manage AD Connect [password sync](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-password-hash-synchronization) and [writeback](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-device-writeback)
++ troubleshoot [password sync](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-password-hash-synchronization) and [writeback](https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-device-writeback)
+
+#### Implement solutions that use virtual machines (VM)
++ Provision VMs
+  + Windows ([Portal](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal), [Powershell](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-powershell), [CLI](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-cli))
+  + Linux ([Portal](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal), [Powershell](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-powershell), [CLI](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-cli))
++ create Azure Resource Manager templates ([Portal](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-quickstart-create-templates-use-the-portal), [VS Code](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-quickstart-create-templates-use-visual-studio-code?tabs=CLI), [Visual Studio](https://docs.microsoft.com/en-us/azure/azure-resource-manager/vs-azure-tools-resource-groups-deployment-projects-create-deploy))
++ configure Azure Disk Encryption for VMs ([Windows](https://docs.microsoft.com/en-us/azure/virtual-machines/extensions/azure-disk-enc-windows), [Linux](https://docs.microsoft.com/en-us/azure/security/azure-security-disk-encryption-windows))
++ [implement Azure Backup for VMs] (https://docs.microsoft.com/en-us/azure/backup/backup-azure-vms-introduction)
 
 ## Implement workloads and security (20-25%)
 
 #### Migrate servers to Azure
-+ [migrate by using Azure Site Recovery](https://docs.microsoft.com/en-us/azure/site-recovery/migrate-tutorial-on-premises-azure)
-+ [migrate using P2V](https://docs.microsoft.com/en-us/azure/site-recovery/physical-azure-disaster-recovery)
-+ [configure storage](https://docs.microsoft.com/en-us/azure/site-recovery/tutorial-prepare-azure)
-+ [create a backup vault](https://docs.microsoft.com/en-us/azure/backup/backup-sql-server-database-azure-vms#create-a-recovery-services-vault)
-+ prepare [source](https://docs.microsoft.com/en-us/azure/site-recovery/physical-azure-set-up-source) and [target](https://docs.microsoft.com/en-us/azure/site-recovery/vmware-azure-set-up-target) environments
++ [~~migrate using P2V~~](https://docs.microsoft.com/en-us/azure/site-recovery/physical-azure-disaster-recovery)
++ [~~migrate servers using Azure Migrate~~](https://docs.microsoft.com/en-us/azure/site-recovery/migrate-tutorial-on-premises-azure)
++ [~~configure storage~~](https://docs.microsoft.com/en-us/azure/site-recovery/tutorial-prepare-azure)
++ [~~create a recovery services vault~~](https://docs.microsoft.com/en-us/azure/backup/backup-sql-server-database-azure-vms#create-a-recovery-services-vault)
++ ~~prepare [source]~~(https://docs.microsoft.com/en-us/azure/site-recovery/physical-azure-set-up-source) and [target](https://docs.microsoft.com/en-us/azure/site-recovery/vmware-azure-set-up-target) environments
 + [backup and restore data](https://docs.microsoft.com/en-us/azure/backup/backup-azure-recovery-services-vault-overview)
-+ [deploy Azure Site Recovery agent](https://docs.microsoft.com/en-us/azure/site-recovery/vmware-physical-mobility-service-overview)
-+ [prepare virtual network](https://docs.microsoft.com/en-us/azure/site-recovery/tutorial-prepare-azure#set-up-an-azure-network)
++ [~~deploy Azure Site Recovery agent~~](https://docs.microsoft.com/en-us/azure/site-recovery/vmware-physical-mobility-service-overview)
++ [~~prepare virtual network~~](https://docs.microsoft.com/en-us/azure/site-recovery/tutorial-prepare-azure#set-up-an-azure-network)
 
 #### Configure serverless computing
++ create and manage objects
 + [manage a Logic App resource](https://docs.microsoft.com/en-us/azure/logic-apps/https://docs.microsoft.com/en-us/azure/azure-functions/functions-how-to-use-azure-function-app-settings)
 + [manage Azure Function app settings](https://docs.microsoft.com/en-us/azure/azure-functions/functions-how-to-use-azure-function-app-settings)
 + [manage Event Grid](https://docs.microsoft.com/en-us/azure/event-grid/)
 + [manage Service Bus](https://docs.microsoft.com/en-gb/azure/service-bus-messaging/)
 
 #### Implement application load balancing
-+ [configure application gateway and load balancing rules](https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-overview)
-+ [implement front end IP configurations](https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-multivip-overview)
-+ [manage application load balancing](https://docs.microsoft.com/en-us/azure/application-gateway/overview)
++ configure application gateway
++ [~~configure application gateway and load balancing rules~~](https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-overview)
++ [~~implement application gateway front end IP configurations~~](https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-multivip-overview)
++ [~~troubleshoot application gateway loadbalancing~~](https://docs.microsoft.com/en-us/azure/application-gateway/overview)
++ [configure Azure Front Door service] (https://docs.microsoft.com/en-us/azure/frontdoor/)
++ [configure Azure Traffic Manager] (https://docs.microsoft.com/en-us/azure/traffic-manager/)
 
 #### Integrate on-premises network with Azure virtual network
 + create and configure Azure VPN Gateway ([Portal](https://docs.microsoft.com/en-us/azure/vpn-gateway/create-routebased-vpn-gateway-portal), [CLI](https://docs.microsoft.com/en-us/azure/vpn-gateway/create-routebased-vpn-gateway-cli), [PowerShell](https://docs.microsoft.com/en-us/azure/vpn-gateway/create-routebased-vpn-gateway-powershell))
 + create and configure site to site VPN ([Portal](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-site-to-site-resource-manager-portal), [CLI](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-site-to-site-resource-manager-cli), [PowerShell](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-create-site-to-site-rm-powershell))
 + [configure Express Route](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-howto-circuit-portal-resource-manager)
++ [configure Virtual WAN] (https://docs.microsoft.com/en-us/azure/virtual-wan/virtual-wan-about)
 + [verify on-premises connectivity](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-validate-throughput-to-vnet)
 + [manage on-premises connectivity with Azure](https://docs.microsoft.com/en-us/office365/enterprise/connect-an-on-premises-network-to-a-microsoft-azure-virtual-network)
-
-#### Manage role-based access control (RBAC)
-+ [create a custom role](https://docs.microsoft.com/en-us/azure/role-based-access-control/custom-roles)
-+ configure access to Azure resources by assigning roles ([Portal](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal), [CLI](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-cli), [PowerShell](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-powershell), [REST](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-rest)))
-+ [configure management access to Azure](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-admin-roles-secure)
-+ [troubleshoot RBAC](https://docs.microsoft.com/en-us/azure/role-based-access-control/troubleshooting)
-+ [implement RBAC policies](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview)
-+ [assign RBAC roles](https://docs.microsoft.com/en-us/azure/role-based-access-control/rbac-and-directory-admin-roles)
 
 #### Implement Multi-Factor Authentication (MFA)
 + [enable MFA for an Azure tenant](https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-mfa-getstarted#enable-azure-multi-factor-authentication)
@@ -137,6 +143,14 @@ Hands-on Training:
 + [configure bypass options](https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-mfa-mfasettings#one-time-bypass)
 + [configure trusted IPs](https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-mfa-mfasettings#trusted-ips)
 + [configure verification methods](https://docs.microsoft.com/en-us/azure/active-directory/authentication/howto-mfa-mfasettings#selectable-verification-methods)
+
+#### Manage role-based access control (RBAC)
++ [create a custom role](https://docs.microsoft.com/en-us/azure/role-based-access-control/custom-roles)
++ configure access to Azure resources by assigning roles ([Portal](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal), [CLI](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-cli), [PowerShell](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-powershell), [REST](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-rest)))
++ [configure management access to Azure](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-admin-roles-secure)
++ [troubleshoot RBAC](https://docs.microsoft.com/en-us/azure/role-based-access-control/troubleshooting)
++ [implement RBAC policies](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview)
++ [assign RBAC roles](https://docs.microsoft.com/en-us/azure/role-based-access-control/rbac-and-directory-admin-roles)
 
 ## Create and deploy apps (5-10%)
 
@@ -183,8 +197,10 @@ Hands-on Training:
 #### Develop solutions that use a relational database
 + provision and configure relational database([.NET](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-design-first-database-csharp),[SSMS](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-design-first-database])
 + [configure elastic pools for Azure SQL Database](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-elastic-pool)
++ [implement Azure SQL Database managed instances](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-managed-instance)
 + [create, read, update, and delete data tables by using code](https://docs.microsoft.com/en-us/learn/paths/work-with-relational-data-in-azure/)
 
+#### Configure a message-based integration architecture
 + [configure an app or service to send emails](https://docs.microsoft.com/en-us/azure/sendgrid-dotnet-how-to-send-email), [Event Grid](https://docs.microsoft.com/en-us/samples/azure-samples/event-grid-dotnet-publish-consume-events/event-grid-dotnet-publish-consume-events/), and the [Azure Relay Service](https://docs.microsoft.com/en-us/azure/service-bus-relay/relay-hybrid-connections-http-requests-dotnet-get-started)
 + create and configure [Notification Hub](https://github.com/Azure/azure-notificationhubs-dotnet/tree/master/Samples), [Event Hub](https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-samples), and [Service Bus](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-samples)  
 + [configure queries across multiple products]()
