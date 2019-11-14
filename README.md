@@ -132,7 +132,7 @@ Hands-on Training:
 + create and configure Azure VPN Gateway ([Portal](https://docs.microsoft.com/en-us/azure/vpn-gateway/create-routebased-vpn-gateway-portal), [CLI](https://docs.microsoft.com/en-us/azure/vpn-gateway/create-routebased-vpn-gateway-cli), [PowerShell](https://docs.microsoft.com/en-us/azure/vpn-gateway/create-routebased-vpn-gateway-powershell))
 + create and configure site to site VPN ([Portal](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-site-to-site-resource-manager-portal), [CLI](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-howto-site-to-site-resource-manager-cli), [PowerShell](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-create-site-to-site-rm-powershell))
 + [configure Express Route](https://docs.microsoft.com/en-us/azure/expressroute/expressroute-howto-circuit-portal-resource-manager)
-+ [configure Virtual WAN] (https://docs.microsoft.com/en-us/azure/virtual-wan/virtual-wan-about)
++ [configure Virtual WAN](https://docs.microsoft.com/en-us/azure/virtual-wan/virtual-wan-about)
 + [verify on-premises connectivity](https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-validate-throughput-to-vnet)
 + [manage on-premises connectivity with Azure](https://docs.microsoft.com/en-us/office365/enterprise/connect-an-on-premises-network-to-a-microsoft-azure-virtual-network)
 
