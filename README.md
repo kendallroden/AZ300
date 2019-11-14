@@ -77,7 +77,7 @@ Hands-on Training:
 
 #### Implement and manage virtual networking
 + [configure private and public IP addresses, network routes, network interface, subnets, and virtual network](https://docs.microsoft.com/en-us/azure/virtual-network/manage-virtual-network)
-+ [create and configure Network Security Groups and Application Security Groups] (https://docs.microsoft.com/en-us/azure/virtual-network/security-overview)
++ [create and configure Network Security Groups and Application Security Groups](https://docs.microsoft.com/en-us/azure/virtual-network/security-overview)
 
 #### Manage Azure Active Directory (AD)
 + [add custom domains](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/add-custom-domain)
