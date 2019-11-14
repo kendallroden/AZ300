@@ -105,10 +105,10 @@ Hands-on Training:
 
 #### Migrate servers to Azure
 + [~~migrate using P2V~~](https://docs.microsoft.com/en-us/azure/site-recovery/physical-azure-disaster-recovery)
-+ [~~migrate servers using Azure Migrate~~](https://docs.microsoft.com/en-us/azure/site-recovery/migrate-tutorial-on-premises-azure)
++ [migrate servers using Azure Migrate](https://docs.microsoft.com/en-us/azure/site-recovery/migrate-tutorial-on-premises-azure)
 + [~~configure storage~~](https://docs.microsoft.com/en-us/azure/site-recovery/tutorial-prepare-azure)
 + [~~create a recovery services vault~~](https://docs.microsoft.com/en-us/azure/backup/backup-sql-server-database-azure-vms#create-a-recovery-services-vault)
-+ ~~prepare [source]~~(https://docs.microsoft.com/en-us/azure/site-recovery/physical-azure-set-up-source) and [target](https://docs.microsoft.com/en-us/azure/site-recovery/vmware-azure-set-up-target) environments
++ [~~prepare source~~](https://docs.microsoft.com/en-us/azure/site-recovery/physical-azure-set-up-source)
 + [backup and restore data](https://docs.microsoft.com/en-us/azure/backup/backup-azure-recovery-services-vault-overview)
 + [~~deploy Azure Site Recovery agent~~](https://docs.microsoft.com/en-us/azure/site-recovery/vmware-physical-mobility-service-overview)
 + [~~prepare virtual network~~](https://docs.microsoft.com/en-us/azure/site-recovery/tutorial-prepare-azure#set-up-an-azure-network)
@@ -125,8 +125,8 @@ Hands-on Training:
 + [~~configure application gateway and load balancing rules~~](https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-overview)
 + [~~implement application gateway front end IP configurations~~](https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-multivip-overview)
 + [~~troubleshoot application gateway loadbalancing~~](https://docs.microsoft.com/en-us/azure/application-gateway/overview)
-+ [configure Azure Front Door service] (https://docs.microsoft.com/en-us/azure/frontdoor/)
-+ [configure Azure Traffic Manager] (https://docs.microsoft.com/en-us/azure/traffic-manager/)
++ [configure Azure Front Door service](https://docs.microsoft.com/en-us/azure/frontdoor/)
++ [configure Azure Traffic Manager](https://docs.microsoft.com/en-us/azure/traffic-manager/)
 
 #### Integrate on-premises network with Azure virtual network
 + create and configure Azure VPN Gateway ([Portal](https://docs.microsoft.com/en-us/azure/vpn-gateway/create-routebased-vpn-gateway-portal), [CLI](https://docs.microsoft.com/en-us/azure/vpn-gateway/create-routebased-vpn-gateway-cli), [PowerShell](https://docs.microsoft.com/en-us/azure/vpn-gateway/create-routebased-vpn-gateway-powershell))
